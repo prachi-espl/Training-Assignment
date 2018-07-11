@@ -1,0 +1,11 @@
+{!Today}
+
+Dear {!NullValue(Lead.OwnerFirstName, "Sir or Madam")},
+
+This is to inform you that your follow-up date which was on {!Lead.Follow_up_date__c} has elapsed.
+
+Sincerely,
+
+{!User.FirstName}
+{!Organization.Name}
+{!User.Email}

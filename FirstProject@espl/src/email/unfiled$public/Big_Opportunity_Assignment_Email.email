@@ -1,0 +1,11 @@
+{!Today}
+
+Dear Manager,
+
+This is to inform you that since the Amount for this opportunity {!Opportunity.Name} is greater than 5000, it has been routed to you for approval.
+
+Sincerely,
+
+{!User.FirstName}
+{!Organization.Name}
+{!User.Email}

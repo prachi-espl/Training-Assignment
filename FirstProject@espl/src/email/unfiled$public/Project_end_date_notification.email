@@ -1,0 +1,11 @@
+{!Today}
+
+Dear {!NullValue(User.FirstName, "Sir or Madam")},
+
+This is to inform you that the end date of the project is after 5 days from today. Kindly take a note of the same.
+
+Sincerely,
+
+{!User.FirstName}
+{!Organization.Name}
+{!User.Email}

@@ -1,0 +1,11 @@
+{!Today}
+
+Dear {!NullValue(Employee__c.Manager__c, "Sir or Madam")},
+
+The record for id {!Employee__c.Id}, name {!Employee__c.Full_Name__c} has been deactivated. Kindly take a note of the same and acknowledge.
+
+Sincerely,
+
+{!User.FullName}
+{!Organization.Name}
+{!User.Email}

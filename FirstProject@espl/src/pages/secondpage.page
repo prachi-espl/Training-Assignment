@@ -1,0 +1,5 @@
+<apex:page >
+    <apex:pageBlock title="Hello world2">
+    	<apex:image url="https://media.giphy.com/media/N1n2Z59pZCslW/giphy.gif"/>
+    </apex:pageBlock>
+</apex:page>

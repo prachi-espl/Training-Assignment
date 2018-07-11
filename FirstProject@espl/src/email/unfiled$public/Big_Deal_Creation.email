@@ -1,0 +1,11 @@
+{!Today}
+
+Dear {!NullValue(Opportunity.OwnerFirstName, "Sir or Madam")},
+
+This is to inform you that a big opportunity {!Opportunity.Name} of amount {!Opportunity.Amount} is being created
+
+Sincerely,
+
+{!User.FirstName}
+{!Organization.Name}
+{!User.Email}

@@ -1,0 +1,11 @@
+{!Today}
+
+Dear {!NullValue(User.FirstName, "Sir or Madam")},
+
+This is to inform you that a new project {!Project_Details__c.Project_Description__c} has been created on {!Project_Details__c.CreatedDate}.
+
+Sincerely,
+
+{!User.FirstName}
+{!Organization.Name}
+{!User.Email}
